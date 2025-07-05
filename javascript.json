@@ -1,0 +1,47 @@
+[
+  {
+    "question": "How do you comment a single line in JavaScript?",
+    "answers": [
+      { "text": "// This is a comment", "correct": true },
+      { "text": "<!-- This is a comment -->", "correct": false },
+      { "text": "# This is a comment", "correct": false },
+      { "text": "** This is a comment **", "correct": false }
+    ]
+  },
+  {
+    "question": "Which keyword declares a variable in JavaScript?",
+    "answers": [
+      { "text": "let", "correct": true },
+      { "text": "varlet", "correct": false },
+      { "text": "int", "correct": false },
+      { "text": "variable", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method shows a pop-up alert in JavaScript?",
+    "answers": [
+      { "text": "alert()", "correct": true },
+      { "text": "prompt()", "correct": false },
+      { "text": "show()", "correct": false },
+      { "text": "message()", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you write 'Hello' to the console?",
+    "answers": [
+      { "text": "console.log('Hello');", "correct": true },
+      { "text": "print('Hello');", "correct": false },
+      { "text": "message('Hello');", "correct": false },
+      { "text": "echo('Hello');", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the result of 2 + '2' in JavaScript?",
+    "answers": [
+      { "text": "22", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "undefined", "correct": false },
+      { "text": "NaN", "correct": false }
+    ]
+  }
+]

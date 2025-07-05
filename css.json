@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which CSS property changes text color?",
+    "answers": [
+      { "text": "color", "correct": true },
+      { "text": "background-color", "correct": false },
+      { "text": "text-decoration", "correct": false },
+      { "text": "font-style", "correct": false }
+    ]
+  },
+  {
+    "question": "Which symbol indicates an ID selector in CSS?",
+    "answers": [
+      { "text": "#", "correct": true },
+      { "text": ".", "correct": false },
+      { "text": "/", "correct": false },
+      { "text": "!", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property sets the background color of an element?",
+    "answers": [
+      { "text": "background-color", "correct": true },
+      { "text": "color", "correct": false },
+      { "text": "font-size", "correct": false },
+      { "text": "border-color", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "answers": [
+      { "text": "font-weight: bold;", "correct": true },
+      { "text": "font-size: bold;", "correct": false },
+      { "text": "text-style: bold;", "correct": false },
+      { "text": "weight: bold;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property controls the space inside an element’s border?",
+    "answers": [
+      { "text": "padding", "correct": true },
+      { "text": "margin", "correct": false },
+      { "text": "border-spacing", "correct": false },
+      { "text": "outline", "correct": false }
+    ]
+  }
+]

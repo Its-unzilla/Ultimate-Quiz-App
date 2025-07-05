@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultimate Quiz App</title>
+    <link rel="icon" href="quiz-test.png" type="image/png" />
+
+   <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="quiz-container">
+      <!-- Home screen -->
+      <div id="home-screen">
+        <h1>Select Your Quiz Topic</h1>
+        <div id="topic-buttons"></div>
+      </div>
+
+      <!-- Quiz screen -->
+      <div id="quiz-screen" class="hidden">
+        <div class="quiz-header">
+          <h2 id="quiz-title"></h2>
+        </div>
+        <div id="timer" class="timer"></div>
+        <div class="quiz-body">
+          <div id="question-container" class="question-container">
+            <div id="question" class="question"></div>
+            <ul id="answer-buttons" class="answer-buttons"></ul>
+          </div>
+        </div>
+        <div class="quiz-footer">
+          <button id="prev-btn" class="nav-btn">Previous</button>
+          <button id="next-btn" class="nav-btn">Next</button>
+        </div>
+      </div>
+
+      <!-- Results screen -->
+      <div id="result-container" class="result-container hidden">
+        <h2>Your Results</h2>
+        <p id="final-score"></p>
+        <button id="review-btn" class="restart-btn">Review Questions</button>
+        <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+        <h3>Quiz History</h3>
+        <button id="export-btn" class="restart-btn">Export CSV</button>
+        <button id="clear-history-btn" class="restart-btn">
+          Clear History
+        </button>
+
+        <table id="history-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Topic</th>
+              <th>Score</th>
+              <th>Avg Time (s)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <!-- Review screen -->
+      <div id="review-container" class="result-container hidden">
+        <h2>Review Your Answers</h2>
+        <div id="review-questions"></div>
+        <button id="back-home-btn" class="restart-btn">Back to Home</button>
+      </div>
+
+      <audio id="sound-correct" src="correct.mp3"></audio>
+      <audio id="sound-wrong" src="wrong.mp3"></audio>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

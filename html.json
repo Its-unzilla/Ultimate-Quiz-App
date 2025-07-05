@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      { "text": "Hyper Text Markup Language", "correct": true },
+      { "text": "Hyper Tool Multi Language", "correct": false },
+      { "text": "Hyperlinks and Text Markup Language", "correct": false },
+      { "text": "Home Tool Markup Language", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag defines a paragraph?",
+    "answers": [
+      { "text": "<p>", "correct": true },
+      { "text": "<h1>", "correct": false },
+      { "text": "<div>", "correct": false },
+      { "text": "<span>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element displays an image?",
+    "answers": [
+      { "text": "<img>", "correct": true },
+      { "text": "<link>", "correct": false },
+      { "text": "<meta>", "correct": false },
+      { "text": "<a>", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the correct HTML tag for creating a hyperlink?",
+    "answers": [
+      { "text": "<a>", "correct": true },
+      { "text": "<link>", "correct": false },
+      { "text": "<href>", "correct": false },
+      { "text": "<url>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute specifies the destination of a link?",
+    "answers": [
+      { "text": "href", "correct": true },
+      { "text": "src", "correct": false },
+      { "text": "link", "correct": false },
+      { "text": "dest", "correct": false }
+    ]
+  }
+]
